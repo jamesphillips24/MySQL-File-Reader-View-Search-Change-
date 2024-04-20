@@ -52,6 +52,7 @@ def drop_table():
     db.commit()
     cursor.close()
 
+
 def check_exit(term):
     if term == "x":
         print("Going back to menu...")
